@@ -1,0 +1,96 @@
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6ec !important; /* Fundo claro rosado */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título */
+h1 {
+    font-family: 'Georgia', serif;
+    color: #cc0044;  /* Rosa escuro forte para destaque */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Cards */
+.card {
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: #fff; /* Branco para destacar o conteúdo */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Body */
+.card-body {
+    padding: 20px;
+}
+
+/* Linhas de texto */
+.black-line {
+    background-color: #ff5c8a; /* Rosa médio vibrante */
+    color: #fff;
+    margin-bottom: 8px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Efeito hover para as linhas de texto */
+.black-line:hover {
+    background-color: #e6005c;  /* Tom mais escuro no hover */
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Imagem */
+.img-fluid {
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .black-line {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+}
+
+/* Margens em telas grandes */
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 2rem;
+}
+/* Botões */
+.btn {
+    background-color: #ff5c8a; /* Rosa médio vibrante */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
